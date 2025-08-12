@@ -31,13 +31,14 @@ namespace _5
                 }
                 else
                 {
-                    if (maxCounter < elemCounter)
-                    {
-                        maxCounter = elemCounter;
-                        maxElem = currentElem;
-                    }
                     currentElem = i;
                     elemCounter = 1;
+                }
+
+                if (maxCounter <= elemCounter)
+                {
+                    maxCounter = elemCounter;
+                    maxElem = currentElem;
                 }
             }
             Console.WriteLine();

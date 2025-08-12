@@ -29,7 +29,7 @@ namespace _3
 
             if (array[array.Length-1] > array[array.Length - 2])
             {
-                Console.WriteLine(array[array.Length]);
+                Console.WriteLine(array[array.Length - 1]);
             }
         }
     }
